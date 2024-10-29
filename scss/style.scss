@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     background-color: rgb(0, 0, 0);
    
   }
@@ -11,15 +11,14 @@
   /* navigation start here------------------ */
   
   .full-nav {
-      padding-left: 110px !important;
-      padding-right: 110px !important;
+      padding-left: 100px !important;
+      padding-right: 100px !important;
       background-color: rgb(0, 0, 0);
       
     }
     .navbar-brand {
       font-weight: 900;
       color: rgb(255, 255, 255) !important;
-    text-shadow: #8100ff 0px 5px 15px;
 
     }
     .nav-link {
@@ -28,7 +27,6 @@
       color: #ffffff !important;
       font-weight: 500!important;
      
-      
     }
     .nav-link:hover
     {
@@ -45,17 +43,13 @@
       gap: 15px;
     }
     .right-both-link {
-      padding: 5px;
+      padding: 6px;
       border-radius: 30%;
       color: #ffffff;
-      background-image: linear-gradient(to bottom, #000000, #3c0225, #6b0058, #8a00a1, #8100ff);
-      
+      border: 1px solid #8100ff;
+      box-shadow: #8100ff 0px 3px 3px;
     }
-    .right-both-link:hover {
-      padding: 5px;
-      color: white;
-      transition: ease-in-out 0.2s;
-    }
+ 
   /* navigation end here------------------ */
   
   
@@ -91,7 +85,7 @@
       border-radius: 5px;
       color: white;
       margin-top: 10px;
-      box-shadow: #8100ff 0px 5px 7px;
+      box-shadow: #8100ff 0px 5px 5px;
       text-decoration: none;
       &:hover{
         background-color: #8100ff;
@@ -112,8 +106,6 @@
       border-radius: 50%;
       clip-path: circle(50.1% at 50% 50%);
       border: 5px solid #8100ff;
-     
-     
     }
     
   /* header section end here---------------- */
@@ -286,14 +278,6 @@
   /* awsome journey start here-------------- */
   
   /* education----------------- */
-  .education
-  {
-   /*  display: none; */
-  }
-  .experience
-  {
-    /* display: none; */
-  }
   .edu-heading
   {
     display: flex;
@@ -332,17 +316,16 @@
     border-top-right-radius: 50px;
     border: 1px solid #8100ff; 
     background-color: rgb(0, 0, 0);
-    box-shadow: #8100ff 0px 5px 15px;
+    box-shadow: #8100ff 0px 5px 7px;
 
-    
   }
   .first-degree:hover
   {
    
+    box-shadow: none;
     background-color: #8100ff;
     transition: ease-in-out .3s;
-   /*  box-shadow: rgba(144, 0, 255, 0.5) 0px 5px 15px; */
-   .first-degree-course,.first-degree-course-name,.institute,{
+   .first-degree-course,.first-degree-course-name,.institute{
     background-color: #8100ff;
     transition: ease-in-out .3s;
     }
@@ -354,7 +337,14 @@
     .passmainlogo{
         color: white;
     }
-    
+    .profile-link{
+      background-color: #8100ff;
+      transition: ease-in-out .3s;
+    }
+    .first-degree-course-duration{
+      background-color: #8100ff;
+      transition: ease-in-out .3s;
+    }
 
   }
 
@@ -371,6 +361,10 @@
     font-weight: 500;
     color: rgb(255, 255, 255);
   }
+  .first-degree-course-duration{
+    color: #c2c2c2;
+    font-size: 15px;
+  }
   .institute
   {
     font-weight: 500;
@@ -386,16 +380,17 @@
     font-weight: 500;
     color: #8100ff;
   }
+  .profile-link{
+    font-weight: 500;
+    color: white;
+  }
   /* awsome journey end here-------------- */
   
   
   
   
   /* my services start here------------------ */
-  .all-services
-  {
-   /*  display: none; */
-  }
+
   .service-logoandname
   {
     display: flex;
@@ -430,15 +425,72 @@
     align-items: center;
     color: white;
   }
+
+  .skill-info{
+    display: flex;
+    gap: 20px;
+  }
+  .skill-info2
+  {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 8px 12px 6px 12px;
+    color: #5a5a5a;
+    border: 1px solid #8100ff;
+    box-shadow: #8100ff 0px 5px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .skill-infos-logo-name
+  {
+    display: flex;
+    gap: 10px;  
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-infos-logo{
+    background-color: transparent;
+  }
+
+  .skill-infos-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .skill-infos
+  {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(182, 182, 182);
+    background-color: transparent;
+  }
+  .skill-infos-logo1
+  {
+   font-size: 25px;
+   background-color: transparent;
+  }
+
+
+
+
+
+
+
   .service-info2
   {
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     padding: 15px;
-    border: 1px solid #8100ff;
     color: #5a5a5a;
-    box-shadow: #8100ff 0px 5px 15px;
-
+    border: 1px solid #8100ff;
+    box-shadow: #8100ff 0px 5px 7px;
   }
   .service-info2:hover
   {
@@ -466,7 +518,7 @@
   {
     display: flex;
     gap: 10px;
-    margin-bottom: 15px;
+    align-items: center;
     background-color: transparent;
   }
   /* service infos logo start---------- */
@@ -497,19 +549,7 @@
   
   
   /* recent works start here------------------- */
-  .work1
-  {
-    /* display: none; */
 
-  }
-  .work2
-  {
-    /* display: none; */
-  }
-  .work3
-  {
-    /* display: none; */
-  }
   .work-img-1
   {
     width: 100%;
@@ -517,13 +557,15 @@
     border-radius: 20px;
     display: block;
     border: none;
-    box-shadow: #8100ff 0px 5px 15px;
+    box-shadow: #8100ff 0px 5px 7px;
+    border: 1px solid #8100ff;
+
+    
 
   }
   .work-img
   {
     position: relative;
-    //box-shadow: #8100ff 0px 5px 15px;
 
   }
   .mainlink
@@ -567,13 +609,16 @@
   /* footer start here------------------ */
   .get-me
   {
-    background-color: #7409d1;
     text-align: center;
     padding: 100px;
-    border-radius: 10px;
-    box-shadow: #8100ff 0px 5px 15px;
-    border: 1px solid #8100ff;
-
+    
+  }
+  .footer-devider{
+    width: 70%;
+    height: 1px;
+    background-color: #8100ff;
+    display: flex;
+    margin: auto;
   }
   .contact-me
   {
@@ -594,7 +639,7 @@
   }
   .envelop-logo
   {
-    color: rgb(239, 66, 66);
+    color: white;
     font-size: 35px;
     margin-right: 10px;
     background-color: transparent;
@@ -606,7 +651,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     background-color: transparent;
 
   }
@@ -627,7 +672,7 @@
   .own-mail
   {
     font-size: 30px;
-    color: rgba(0, 0, 0, 0.526);
+    color: #8100ff;
     text-decoration: none;
     margin-top: -5px;
     background-color: transparent;
@@ -641,26 +686,20 @@
   }
   .other-link1
   {
-    font-size: 27px;
-    margin-right: 20px;
-    color: white;
-    padding: 7px;
-    border-radius: 50%;
-    background-image: linear-gradient(to bottom, #8100ff, #8a00a1, #6b0058, #3c0225, #000000);
+    padding: 6px;
+      border-radius: 30%;
+      color: #ffffff;
+      border: 1px solid #8100ff;
+      box-shadow: #8100ff 0px 3px 3px;
+      margin-right: 20px;
+      &:hover{
+        background-color: #8100ff;
+        box-shadow: none;
+        transition: .2s ease-in-out;
+      }
   
   }
   .other-mainlink
   {
     background-color: transparent;
-  }
-  .other-link1:hover
-  {
-    font-size: 27px;
-    margin-right: 20px;
-    color:#7409d1;
-    border-radius: 50%;
-    padding: 7px;
-    transition: .3s ease-in-out;
-   
-  
   }
